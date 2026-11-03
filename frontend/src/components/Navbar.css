@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: aquamarine;
+  line-height: 45px;
+}
+nav .list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.list a {
+  color: red;
+  font-size: 22px;
+  text-decoration: none;
+}
