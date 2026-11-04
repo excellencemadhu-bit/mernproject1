@@ -9,7 +9,7 @@ dotenv.config();
 app.use(express.json())
 
 let port=process.env.PORT||3000;
-app.use(cors({origin:"http://localhost:5173"}))//react origin
+app.use(cors({origin:"https://myfrontend-qr2f.onrender.com"}))//react origin
 app.use("/api/user",userRouter);
 app.use("/api/product",productRouter)
 
